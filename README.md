@@ -12,4 +12,6 @@ Crystals are then initialized randomly in the simulation zone assuming instantan
 
 To improve performance, a soothesayer function was instated. The soothesayer looks far ahead into future iterations to see if any active crystals have collided. It looks gradually closer and closer and gains an idea of approximately when each crystal will collide. Then the simulator moves frame by frame, growing each crystal that is known to collide before the next frame known by the soothesayer. In this way, many frames can be skipped.
 
+Two images are included herein to illustrate the initialized and finalized simulations.
+
 This simulator is conveniently simplified. However, now that I have experimental data on nucleation rates and growth velocity based on temperature, I think I would remove the assumption of instantaneous nucleation and create a more physically-realistic model. However, this would also be much more time intensive. Though perhaps I could do it mathematically instead of pixel-based. Hmm...
