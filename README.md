@@ -1,6 +1,7 @@
 # crystallizationSimulation
 A MATLAB simulation of crystal nucleation and growth
 
+Written by Jonathan K. Meyers (ORCID 0000-0002-6698-3420)
 Created in MATLAB R2016a
 
 
